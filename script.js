@@ -8,15 +8,15 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "você gosta de carro ou moto?",
+        enunciado: "Você gosta de carro ou moto?",
         alternativas: [
             {
                 texto: "carro !",
-                afirmacao: "ao atingir a maioridade, você comprou um carro. "
+                afirmacao: "Ao atingir a maioridade, você comprou um carro. "
             },
             {
                 texto: "moto ",
-                afirmacao: "ao atingir a maioridade você comprou uma moto."
+                afirmacao: "Ao atingir a maioridade você comprou uma moto."
             }
         ]
     },
@@ -25,11 +25,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "não",
-                afirmacao: "você nunca passou do limite de velocidade e nunca ganhou uma multa"
+                afirmacao: "Você nunca passou do limite de velocidade e nunca ganhou uma multa"
             },
             {
                 texto: "sim",
-                afirmacao: "você ja passou do limite de velocidade e seu veiculo foi preso"
+                afirmacao: "Você ja passou do limite de velocidade e seu veiculo foi preso"
             }
         ]
     },
@@ -38,11 +38,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "sim",
-                afirmacao: "você trocou seu veiculo por um melhor"
+                afirmacao: "Você trocou seu veiculo por um melhor"
             },
             {
                 texto: "não",
-                afirmacao: "você continuou com seu veiculo pelo resto da vida."
+                afirmacao: "Você continuou com seu veiculo pelo resto da vida."
             }
         ]
     },
